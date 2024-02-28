@@ -1,2 +1,2 @@
-# OpenCore-ASUS-X542UF
- OpenCore EFI for ASUS VivoBook 15 X542UF
+# OpenCore for ASUS VivoBook 15 X542UF
+This repository contains OpenCore 0.9.8 with required configuration for ASUS X542UF laptop. Tested with macOS Sonoma (January 2024). SATA boot only (can be changed in config.plist). Contains SSDT patch which disables Qualcomm QCA9377 (but is disabled by default for working Bluetooth in macOS) and SSDT patch to disable dGPU. Built-in microphone is not working (need to find correct AppleALC layout). Includes OpenCanopy (graphical bootloader).
